@@ -1,12 +1,12 @@
 {
-  "client_id": "https://bluesy.space/client-metadata.json",
+  "client_id": "https://bayouapp.space/client-metadata.json",
   "client_name": "Bayou",
-  "client_uri": "https://bluesy.space",
+  "client_uri": "https://bayouapp.space",
   "application_type": "native",
   "grant_types": ["authorization_code", "refresh_token"],
   "scope": "atproto transition:generic transition:chat.bsky",
   "response_types": ["code"],
-  "redirect_uris": ["space.bluesy:/oauth/callback"],
+  "redirect_uris": ["space.bayouapp:/oauth/callback"],
   "dpop_bound_access_tokens": true,
   "token_endpoint_auth_method": "none"
 }
