@@ -4,14 +4,14 @@
 
 Bayou is an app for using Bluesky and the AT Protocol on iPhone, iPad, and Mac. This policy explains what information Bayou handles, where it goes, and the choices you have.
 
-**The short version:** Bayou has no accounts of its own, no ads, and no tracking across apps or websites. Your posts, likes, follows, and messages travel directly between your device and the Bluesky service that hosts your account. The only server Bayou runs is a gateway that delivers push notifications, and it's only involved if you turn notifications on. Subscriptions are managed through RevenueCat.
+**The short version:** Your posts, likes, follows, and messages travel directly between your device and the Bluesky service that hosts your account. The only server Bayou runs is a gateway that delivers push notifications, and it's only involved if you turn notifications on. Subscriptions are managed through RevenueCat.
 
 ---
 
 ## Your Bluesky Account
 
 ### Signing in
-You sign in with your existing Bluesky account through your provider's own sign-in page, using the AT Protocol's OAuth standard. Bayou never sees your password. After you sign in, your provider gives Bayou access tokens, which are stored in your device's Keychain. They aren't synced to iCloud and aren't sent to us.
+You sign in with your existing Bluesky account through your provider's own sign-in page, using the AT Protocol's OAuth standard. Bayou never sees your password. After you sign in, your provider gives Bayou access tokens, which are stored in your device's Keychain and stay on that device.
 
 ### What you do on Bluesky
 Everything you do in Bayou that involves your account, such as reading feeds, posting, liking, following, blocking, muting, messaging, and changing your Bluesky settings, is sent directly from your device to your account's host (your Personal Data Server, usually run by Bluesky Social, PBC) and to the Bluesky services your account uses. Bayou doesn't copy or keep this data on any server of ours.
@@ -62,7 +62,7 @@ Direct messages don't generate push notifications from Bayou.
 
 ## Subscriptions (RevenueCat)
 
-Bayou's premium subscription and free trial are sold through the App Store and managed with [RevenueCat](https://www.revenuecat.com/privacy/), which keeps track of what you've purchased so Bayou knows which features to unlock. RevenueCat also gives us aggregate subscription analytics, such as how many people finish onboarding, see the subscription screen, start a trial, subscribe, renew, or cancel. To do that, Bayou tells RevenueCat when you finish onboarding, when the subscription screen appears, and which plan you choose or back out of. That's the only analytics Bayou uses; it covers getting set up and subscribing, never what you read or post. RevenueCat processes your purchase history, an anonymous identifier created for Bayou (not your Bluesky account or Apple ID), basic device information such as model, OS version, and app version, and your IP address. Apple handles payment itself; neither Bayou nor RevenueCat receives your payment details.
+Bayou's premium subscription and free trial are sold through the App Store and managed with [RevenueCat](https://www.revenuecat.com/privacy/), which keeps track of what you've purchased so Bayou knows which features to unlock. RevenueCat also gives us aggregate subscription analytics, such as how many people finish onboarding, see the subscription screen, start a trial, subscribe, renew, or cancel. To do that, Bayou tells RevenueCat when you finish onboarding, when the subscription screen appears, and which plan you choose or back out of. That's the only analytics Bayou uses. RevenueCat processes your purchase history, an anonymous identifier created for Bayou, basic device information such as model, OS version, and app version, and your IP address. Apple handles payment itself; neither Bayou nor RevenueCat receives your payment details.
 
 Purchase records are kept as long as needed for billing, accounting, and legal compliance.
 
@@ -92,11 +92,9 @@ You can change any of these at any time in Settings on your device.
 
 ---
 
-## What We Don't Do
+## Advertising and Sharing
 
-- We don't sell, rent, or share your information.
-- We don't use advertising, and don't track you across apps or websites.
-- We don't have access to your password, your direct messages, or your Bluesky data beyond what's described in the push notification section.
+Bayou has no advertising. We never sell, rent, or share your information, or track you across apps or websites.
 
 We may disclose the limited data the push gateway holds if required by law.
 
