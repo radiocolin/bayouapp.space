@@ -17,7 +17,7 @@ cd ../Bayou
 python3 Screenshots/site_assets.py   # writes ../bayouapp.space/assets
 ```
 
-It exports the hero backgrounds, iPhone screens, Mac windows, the app icon (without its beta ribbon), and the link preview image. Retake the screenshots (`Screenshots/capture.py`) first if the app has changed.
+It exports the hero backgrounds, iPhone screens, Mac windows, the app icon (rendered from `Bayou/AppIcon.icon`), and the link preview image. Retake the screenshots (`Screenshots/capture.py`) first if the app has changed.
 
 ## OAuth client metadata
 

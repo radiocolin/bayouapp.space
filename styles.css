@@ -1,8 +1,8 @@
 /* Bayou — bayouapp.space
    The look follows the App Store screenshots: layered, softly shadowed
    backgrounds in the spirit of OS 27, frosted glass surfaces, and
-   headlines filled with a gradient. Colors follow the visitor's system
-   appearance. */
+   headlines filled with a gradient that ends on the app icon's orange.
+   Colors follow the visitor's system appearance. */
 
 :root {
   --bg: #fbf4ea;
@@ -15,7 +15,7 @@
   --rule: rgba(43, 35, 80, 0.12);
   --shadow: 0 30px 60px -20px rgba(70, 40, 90, 0.35), 0 12px 24px -12px rgba(70, 40, 90, 0.2);
   --glass-shadow: 0 10px 30px -12px rgba(70, 40, 90, 0.25);
-  --headline: linear-gradient(90deg, #342870 0%, #703e96 55%, #b06234 100%);
+  --headline: linear-gradient(90deg, #342870 0%, #703e96 55%, #b05d1c 100%);
   --accent: #6b3fa0;
   --hero-bg: url("assets/bg-light.jpg");
   color-scheme: light;
@@ -33,7 +33,7 @@
     --rule: rgba(242, 238, 250, 0.12);
     --shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.7), 0 12px 24px -12px rgba(0, 0, 0, 0.5);
     --glass-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
-    --headline: linear-gradient(90deg, #ffffff 0%, #d6ccfc 55%, #aac4f2 100%);
+    --headline: linear-gradient(90deg, #ffffff 0%, #d6ccfc 55%, #f6be8c 100%);
     --accent: #b8a8f5;
     --hero-bg: url("assets/bg-dark.jpg");
     color-scheme: dark;
