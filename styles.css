@@ -90,6 +90,9 @@ a {
   line-height: 1.08;
   font-weight: 800;
   text-wrap: balance;
+  /* background-clip only paints inside the box, and at this line height
+     descenders (the g in "good") hang below it. */
+  padding-bottom: 0.14em;
 }
 
 .glass {
