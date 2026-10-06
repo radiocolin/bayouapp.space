@@ -10,14 +10,14 @@ GitHub Pages source for Bayou's website and ATProto OAuth client metadata.
 
 ## Images
 
-Everything in `assets/` is generated from the Bayou repo's App Store screenshot pipeline, so the site matches the store:
+Everything in `assets/` is generated from the App Store screenshot pipeline (radiocolin/app-store-screenshots), so the site matches the store:
 
 ```sh
-cd ../Bayou
-python3 Screenshots/site_assets.py   # writes ../bayouapp.space/assets
+cd ~/Developer/"App Store Screenshots"
+python3 bayou/site_assets.py   # writes ~/Developer/bayouapp.space/assets
 ```
 
-It exports the hero backgrounds, iPhone screens, Mac windows, the app icon (rendered from `Bayou/AppIcon.icon`), and the link preview image. Retake the screenshots (`Screenshots/capture.py`) first if the app has changed.
+It exports the hero backgrounds, iPhone screens, Mac windows, the app icon (rendered from `Bayou/AppIcon.icon`), and the link preview image. Retake the screenshots (`bayou/capture.py`) first if the app has changed.
 
 ## OAuth client metadata
 
