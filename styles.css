@@ -164,6 +164,16 @@ a {
   white-space: nowrap;
 }
 
+a.pill {
+  text-decoration: none;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+a.pill:hover {
+  background: var(--surface-strong);
+  transform: translateY(-1px);
+}
+
 .nav .pill {
   padding: 8px 14px;
   font-size: 14px;
